@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:padding="16dp"
+    android:background="@drawable/darkbackground1">
+
+
+    <!--    <include layout="@layout/toolbar"/>-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/gradient1"
+        android:fontFamily="@font/hindi_font"
+        android:gravity="center_vertical"
+        android:scaleType="centerCrop"
+        android:text="Contact and give feedback at \n
+        sanidhyasaxena73@gmail.com
+"
+        android:textAlignment="center"
+        android:textColor="@color/White"
+
+        android:textSize="20sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+</ScrollView>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:title="User">
+
+    <menu>
+        <item android:title="Login"
+            android:icon="@drawable/hanuman1"/>
+        <item android:title="Aarti"
+            android:icon="@drawable/splash1"/>
+        <item android:title="Chalisa"
+            android:icon="@drawable/hanuman1"/>
+
+
+    </menu>
+</item>
+</menu>

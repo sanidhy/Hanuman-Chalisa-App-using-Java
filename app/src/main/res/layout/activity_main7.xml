@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main7Activity"
+    android:background="@drawable/effect1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+            android:id="@+id/youtube_player_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            app:autoPlay="false"
+            app:showSeekBar="true"
+            app:showVideoDuration="true"
+
+            app:showVideoCurrentTime="true"
+            app:showYouTubeButton="false"
+            app:showFullScreenButton="true"
+             />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="हनुमानजी की आरती"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:background="@drawable/effect1"
+
+            android:layout_gravity="center_vertical"
+            android:gravity="center"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/effect1">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/effect1"
+                    android:fontFamily="@font/hindi_font"
+                    android:gravity="center_vertical"
+                    android:scaleType="centerCrop"
+                    android:text="
+                    \n
+आरती कीजै हनुमान लला की ।\n
+आरती कीजै हनुमान लला की ।\n
+दुष्ट दलन रघुनाथ कला की ॥\n
+\n
+आरती कीजै हनुमान लला की ।\n
+आरती कीजै हनुमान लला की ॥\n
+\n
+जाके बल से गिरवर काँपे ।\n
+रोग-दोष जाके निकट न झाँके ॥\n
+अंजनि पुत्र महा बलदाई ।\n
+संतन के प्रभु सदा सहाई ॥\n
+आरती कीजै हनुमान लला की ।\n
+आरती कीजै हनुमान लला की ॥\n
+\n
+दे वीरा रघुनाथ पठाए ।\n
+लंका जारि सिया सुधि लाये ॥\n
+लंका सो कोट समुद्र सी खाई ।\n
+जात पवनसुत बार न लाई ॥\n
+लंका जारि असुर संहारे ।\n
+सियाराम जी के काज सँवारे ॥\n
+आरती कीजै हनुमान लला की ।\n
+आरती कीजै हनुमान लला की ॥\n
+\n
+लक्ष्मण मुर्छित पड़े सकारे ।\n
+लाये संजिवन प्राण उबारे ॥\n
+पैठि पताल तोरि जमकारे ।\n
+अहिरावण की भुजा उखारे ॥\n
+बाईं भुजा असुर दल मारे ।\n
+दाहिने भुजा संतजन तारे ॥\n
+आरती कीजै हनुमान लला की ।\n
+आरती कीजै हनुमान लला की ॥\n
+\n
+सुर-नर-मुनि जन आरती उतरें ।\n
+जय जय जय हनुमान उचारें ॥\n
+कंचन थार कपूर लौ छाई ।\n
+आरती करत अंजना माई ॥\n
+जो हनुमानजी की आरती गावे ।\n
+बसहिं बैकुंठ परम पद पावे ॥\n
+आरती कीजै हनुमान लला की ।\n
+आरती कीजै हनुमान लला की ॥\n
+\n
+आरती कीजै हनुमान लला की ।\n
+आरती कीजै हनुमान लला की ॥\n
+\n
+जय श्रीराम, जय हनुमान, जय हनुमान।
+\n\n
+
+"
+                    android:textAlignment="center"
+                    android:textColor="@color/White"
+
+                    android:textSize="20sp"
+                    android:textStyle="bold">
+
+                </TextView>
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

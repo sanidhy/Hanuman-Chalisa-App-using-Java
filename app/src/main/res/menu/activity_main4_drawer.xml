@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_om__1_"
+            android:title="होम" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_om__1_"
+            android:title="आरती" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_om__1_"
+            android:title="चालीसा" />
+        <item
+            android:id="@+id/listen_chalisa"
+            android:icon="@drawable/ic_om__1_"
+            android:title="चालीसा सुनाए" />
+        <item
+            android:id="@+id/listen_aarti"
+            android:icon="@drawable/ic_om__1_"
+            android:title="आरती सुनाए" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:title="Facts About Chalisa"
+                android:icon="@drawable/ic_bookmark_black_"/>
+            <item
+                android:id="@+id/nav_send"
+                android:title="Developer"
+                android:icon="@drawable/ic_bookmark_black_"/>
+            <item
+                android:id="@+id/share"
+                android:title="Share"
+                android:icon="@drawable/ic_menu_share"/>
+        </menu>
+    </item>
+
+</menu>
